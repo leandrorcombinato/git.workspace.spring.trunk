@@ -17,5 +17,8 @@
 		<servlet-name>fitTrackerServlet</servlet-name>
 		<url-pattern>*.html</url-pattern>
 	</servlet-mapping>
-
+	<servlet-mapping>
+		<servlet-name>fitTrackerServlet</servlet-name>
+		<url-pattern>/pdfs/**</url-pattern>
+	</servlet-mapping>
 </web-app>
