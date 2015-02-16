@@ -10,7 +10,7 @@
 		<servlet-class>org.springframework.web.servlet.DispacherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>/WEB-INF/Config/servlet-config.xml</param-value>
+			<param-value>/WEB-INF/config/servlet-config.xml</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>
