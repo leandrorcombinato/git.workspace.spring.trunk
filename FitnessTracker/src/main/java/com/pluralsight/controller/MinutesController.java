@@ -13,7 +13,7 @@ public class MinutesController {
 	@RequestMapping(value = "addMinutes")
 	public String addMinutes(@ModelAttribute("exercise") Exercise exercise){
 		System.out.println("exercise: "+ exercise.getMinutes());
-		return "addMoreMinutes";
+		return "addMinutes";
 	}
 
 /*	@RequestMapping(value = "addMoreMinutes")
